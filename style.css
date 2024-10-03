@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; 
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #FF90BC;
+    color: #F9F9E0; 
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse; 
+    background-color: #F5F5F5;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: none;
+}
+
+th {
+    color: #A87676;
+    font-weight: bold;
+}
+
+td {
+    color: #A87676;
+}
+
+
+h2, h3 {
+    color: #705C53;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FF90BC;
+    color: #F9F9E0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #F9F9E0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ฟอร์มการติดต่อ */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #F9F9E0;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
